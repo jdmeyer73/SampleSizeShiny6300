@@ -20,7 +20,7 @@ ui <- fluidPage(
       })
     </script>')
   ),
-  titlePanel("Sample Size Calculator for MKT 3200"),
+  titlePanel("Sample Size Calculator for MKT 6300"),
   tabsetPanel(
     tabPanel(title="$n=\\left(\\frac{Z\u03c3}{D}\\right)^2$",
              tableOutput("z.table1"),
